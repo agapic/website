@@ -21,7 +21,8 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
-    color: #777;
+    color: #333;
+    font-family: Roboto Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p.large {
@@ -63,7 +64,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #eee;
 }
 
 .bg-darkest-gray {
@@ -267,7 +268,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-strong.jpeg);
+    background-image: url(../img/header-bg-strong.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -292,8 +293,8 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: none;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -303,7 +304,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        padding-bottom: 550px;
     }
 
     header .intro-text .intro-lead-in {
@@ -319,11 +320,12 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 40px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        text-transform: capitalize;
+        font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 6rem;
         font-weight: 700;
         line-height: 75px;
+        text-shadow: 0 0px 0px rgba(0, 0, 0, 0.5)
       
 
     }
@@ -350,7 +352,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 0;
     }
 }
 
@@ -422,7 +424,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-style: italic;
 }
 
@@ -729,6 +731,8 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #111;
+    color: #fff;
 }
 
 footer span.copyright {
