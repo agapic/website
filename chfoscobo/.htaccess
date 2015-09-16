@@ -1,4 +1,0 @@
-AuthName "u_r_da_best"
-AuthUserFile "/home2/agapic/.htpasswds/public_html/chfoscobo/passwd"
-AuthType Basic
-require valid-user
