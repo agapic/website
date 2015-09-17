@@ -271,6 +271,7 @@ header {
     background-attachment: scroll;
     background-image: url(../img/header-bg-strong.jpg);
     background-position: center center;
+    height: 100vh;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
