@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.1/lodash.min.js"</script>
+        <script>
+            _u = _.noConflict(); // lets call ourselves _u
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="title"></div>
+        <div id="line"></div>
+        <div align="center">
+            <a href="#" class="btn red" onClick="update(100)">100</a>
+            <a href="#" class="btn red" onClick="update(200)">200</a>
+            <input id="addRunner" type="text">
+            <a class="btn red" onClick="addRunner()">Add Runner</a>
+        </div>
+    </body>
+</html>
