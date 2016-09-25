@@ -370,8 +370,8 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+    margin: auto;
+    float: none;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -438,11 +438,13 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
+    margin: auto;
 }
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        float: none;
+        margin: auto;
     }
 }
 
