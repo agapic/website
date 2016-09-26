@@ -15,18 +15,8 @@ body {
     color: #777;
 }
 
-.text-primary {
-    color: #fed136;
-}
-
 p {
     margin-top: 20px;
-}
-.about {
-    text-align: center-justify;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 50px;
 }
 
 a,
@@ -61,121 +51,9 @@ h6 {
 .center {
     margin: auto;
 }
-.img-project {
-    width: 80%;
-    height: 80%;
-}
-.img-centered {
-    margin: 0 auto;
-}
 
 .bg-light-gray {
     background-color: #eee;
-}
-
-.bg-darkest-gray {
-    background-color: #222;
-}
-
-.btn-primary {
-    border-color: #fed136;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #fff;
-    background-color: #fed136;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
-}
-
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    background-image: none;
-}
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
-}
-
-.btn-primary .badge {
-    color: #fed136;
-    background-color: #fff;
-}
-
-.btn-xl {
-    padding: 20px 40px;
-    border-color: #fed136;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #fed136;
-}
-
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
-}
-
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    background-image: none;
-}
-
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
-}
-
-.btn-xl .badge {
-    color: #fed136;
-    background-color: #fff;
 }
 
 .navbar-default {
@@ -227,18 +105,6 @@ fieldset[disabled] .btn-xl.active {
     color: #fed136;
 }
 
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #fed136;
-}
-
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #fec503;
-}
-
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -254,10 +120,6 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
     }
 
     .navbar-default.navbar-shrink {
@@ -289,15 +151,6 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    line-height: 22px;
-    text-shadow: 0 0 2px #000;
-}
-
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: none;
@@ -312,17 +165,6 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 550px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 0px;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 30px;
-        font-style: italic;
-        line-height: 40px;
-        color: #fff;
-        
- 
     }
 
     header .intro-text .intro-heading {
@@ -349,24 +191,10 @@ section h2.section-heading {
     font-size: 40px;
 }
 
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-}
-
 @media(min-width:768px) {
     section {
         padding: 0;
     }
-}
-
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
 }
 
 #portfolio .portfolio-item {
@@ -409,11 +237,6 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
 }
 
 #portfolio .portfolio-item .portfolio-caption {
@@ -488,14 +311,6 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136;
 }
-
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-    outline: 0;
-}
-
 
 img::selection {
     background: 0 0;
